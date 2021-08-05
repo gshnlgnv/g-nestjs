@@ -10,4 +10,7 @@ export class ProductModel {
   disadvantages: string;
   categories: string[];
   tags: string;
+  specs: {
+    [key: string] : string;
+  };
 }
